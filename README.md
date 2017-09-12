@@ -9,4 +9,7 @@ contactToll.delegate = self;
 
  * 按姓氏的排列
 - (void)contactByLastNameDic:(NSArray *)personArray authorizationSuccess:(BOOL)success;
+
+
 ![image](https://github.com/tangbin583085/TBContact/blob/master/TBContact/TBContact/screenshot/BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png)
+![image](https://github.com/tangbin583085/TBContact/blob/master/TBContact/TBContact/screenshot/E1E33DFD-F924-4758-99AB-935C44F09C56.png)
