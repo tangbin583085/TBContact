@@ -17,6 +17,8 @@
 		515513D21F6793B800F96C41 /* TBContactTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 515513CD1F6793B800F96C41 /* TBContactTool.m */; };
 		515513D31F6793B800F96C41 /* TBContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 515513CF1F6793B800F96C41 /* TBContactVC.m */; };
 		515513D41F6793B800F96C41 /* TBContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515513D01F6793B800F96C41 /* TBContactVC.xib */; };
+		515513D71F67AE8F00F96C41 /* BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png in Resources */ = {isa = PBXBuildFile; fileRef = 515513D61F67AE8F00F96C41 /* BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png */; };
+		515513D91F67AE9900F96C41 /* E1E33DFD-F924-4758-99AB-935C44F09C56.png in Resources */ = {isa = PBXBuildFile; fileRef = 515513D81F67AE9900F96C41 /* E1E33DFD-F924-4758-99AB-935C44F09C56.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		515513CE1F6793B800F96C41 /* TBContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBContactVC.h; sourceTree = "<group>"; };
 		515513CF1F6793B800F96C41 /* TBContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBContactVC.m; sourceTree = "<group>"; };
 		515513D01F6793B800F96C41 /* TBContactVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBContactVC.xib; sourceTree = "<group>"; };
+		515513D61F67AE8F00F96C41 /* BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png"; sourceTree = "<group>"; };
+		515513D81F67AE9900F96C41 /* E1E33DFD-F924-4758-99AB-935C44F09C56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E1E33DFD-F924-4758-99AB-935C44F09C56.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		515513951F67939100F96C41 /* TBContact */ = {
 			isa = PBXGroup;
 			children = (
+				515513D51F67AE7800F96C41 /* screenshot */,
 				515513C91F6793B800F96C41 /* TBContact */,
 				515513991F67939100F96C41 /* AppDelegate.h */,
 				5155139A1F67939100F96C41 /* AppDelegate.m */,
@@ -156,6 +161,15 @@
 				515513CD1F6793B800F96C41 /* TBContactTool.m */,
 			);
 			path = TBContact;
+			sourceTree = "<group>";
+		};
+		515513D51F67AE7800F96C41 /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				515513D81F67AE9900F96C41 /* E1E33DFD-F924-4758-99AB-935C44F09C56.png */,
+				515513D61F67AE8F00F96C41 /* BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png */,
+			);
+			path = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515513D91F67AE9900F96C41 /* E1E33DFD-F924-4758-99AB-935C44F09C56.png in Resources */,
 				515513A61F67939100F96C41 /* LaunchScreen.storyboard in Resources */,
 				515513A31F67939100F96C41 /* Assets.xcassets in Resources */,
+				515513D71F67AE8F00F96C41 /* BDDA95F6-51E8-4ABE-AF1E-D019546A9FE0.png in Resources */,
 				515513D41F6793B800F96C41 /* TBContactVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26T3GN5W2S;
 				INFOPLIST_FILE = TBContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26T3GN5W2S;
 				INFOPLIST_FILE = TBContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pintu.ttttttttt.TBContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
