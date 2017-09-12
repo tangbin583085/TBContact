@@ -1,9 +1,9 @@
 # TBContact
 访问手机通讯录
-1，创建使用
-    TBContactTool *contactToll = [[TBContactTool alloc] init];
-    contactToll.delegate = self;
-2， 实现代理，获取手机通讯录数据
+# 1，创建使用方法
+TBContactTool *contactToll = [[TBContactTool alloc] init];
+contactToll.delegate = self;
+# 2， 实现代理，获取手机通讯录数据
  * 无序的排列
 - (void)contactArray:(NSArray *)personAray authorizationSuccess:(BOOL)success;
 
